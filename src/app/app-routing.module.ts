@@ -12,6 +12,14 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomePageModule'
   },
   {
+    path: 'login',
+    loadChildren: './login/login.module#LoginPageModule'
+  },
+  {
+    path: 'project',
+    loadChildren: './project/project.module#ProjectPageModule'
+  },
+  {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   }
